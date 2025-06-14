@@ -1,1 +1,20 @@
-/target
+# Rust build
+/target/
+**/*.rs.bk
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# By-products of rustup
+/.rustup/
+/.cargo/
+
+# Misc
+*.log 
